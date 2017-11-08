@@ -1,0 +1,38 @@
+﻿<!doctype html>
+<html ng-app="MPC">
+<head>
+    <script src="https://code.angularjs.org/1.2.18/angular.js"></script>
+    <script src="https://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.6.0.js"></script>
+    <script src="Controllers/MortagageController.js"></script>
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
+</head>
+<body>
+    <div ng-controller="MPCCtrl">
+        <script type="text/ng-template" id="MPCContent">
+            <div class="modal-header">
+                <h3>Calculate</h3>
+            </div>
+            <form >
+                <div class="modal-body">
+                    <label>Amount:</label>
+                    <input type="text" ng-model="mortagage.amount" />
+                    <label>Down Payment</label>
+                    <input type="text" ng-model="mortagage.downpayment" />
+                    <input type="text" ng-model="mortagage.percentagedownpayment" ng-change="percetagechange()" />
+                    <label>Interest:</label>
+                    <select data-ng-options="o for o in options" ng-model="mortagage.interst"></select>
+                    <label>Years:</label>
+                    <input type="text" ng-model="mortagage.years" />
+                    <label ng-if="result!=0">Monthly Payment</label>
+                    <span ng-if="result!=0">{{result}}</span>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-warning" ng-click="cancel()">Cancel</button>
+                    <input type="button" class="btn primary-btn" value="Calculate" ng-click="calculate()" />
+                </div>
+            </form>
+        </script>
+        <button class="btn" ng-click="open()">Estimate</button>
+    </div>
+</body>
+</html>

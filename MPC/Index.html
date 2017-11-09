@@ -3,32 +3,98 @@
 <head>
     <script src="https://code.angularjs.org/1.2.18/angular.js"></script>
     <script src="https://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.6.0.js"></script>
+   
     <script src="Controllers/MortagageController.js"></script>
+    <script src="Directives/dragable.js"></script>
+    
     <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
+    <link href="StyleSheet2.css" rel="stylesheet" />
+   <!--<style>
+        /*input[type=text].rupee {
+            background-image: url("dolar.png");
+            padding: 5px;
+            padding-left: 20px;
+            background-size: 10px 15px;
+            background-repeat: no-repeat;
+            background-position: 8px 6px;
+        }*/
+      .input-euro {
+            position: relative;
+        }
+
+            .input-euro.left input {
+                padding-left: 20px;
+            }
+            .input-euro:before {
+                position: absolute;
+                bottom: 2px;
+                left:20px;
+                content: "$";
+            }
+
+            .input-euro.left:before {
+                left: 10px;
+            }
+        .input-euro1 {
+            position: relative;
+        }
+
+            .input-euro1.left input {
+                padding-left: 20px;
+            }
+
+            .input-euro1:before {
+                position: absolute;
+                bottom: 2px;
+                left: 200px;
+                content: "%";
+            }
+
+            .input-euro1.left:before {
+                left: 40px;
+            }
+        
+            
+            
+    </style>-->
 </head>
 <body>
     <div ng-controller="MPCCtrl">
-        <script type="text/ng-template" id="MPCContent">
-            <div class="modal-header">
+        <script type="text/ng-template" id="MPCContent" dragable>
+            <div class="modal-header" >
                 <h3>Calculate</h3>
+                <div style="padding-left:500px;padding-top:2px">  <a href="" ng-click="cancel()" ><span>X</span></a></div>
             </div>
-            <form >
+            <form name="payment">
+                <p class="error-inline" ng-show="error">
+                    <span class="glyphicon glyphicon-exclamation-sign"></span>
+                   Down Payment should not be greater than amount
+                </p>  
                 <div class="modal-body">
                     <label>Amount:</label>
-                    <input type="text" ng-model="mortagage.amount" />
-                    <label>Down Payment</label>
-                    <input type="text" ng-model="mortagage.downpayment" />
-                    <input type="text" ng-model="mortagage.percentagedownpayment" ng-change="percetagechange()" />
-                    <label>Interest:</label>
-                    <select data-ng-options="o for o in options" ng-model="mortagage.interst"></select>
-                    <label>Years:</label>
-                    <input type="text" ng-model="mortagage.years" />
-                    <label ng-if="result!=0">Monthly Payment</label>
-                    <span ng-if="result!=0">{{result}}</span>
-                </div>
+                    <span class="input-euro left">
+                        <input type="text" ng-model="mortagage.amount" ng-change="percetagechange()" class="rupee" />
+                    </span>
+
+                        <label>Down Payment</label>
+                    <span class="input-euro left">
+                        <input type="text" ng-model="mortagage.downpayment" name="downpayment"  ng-change="downpaymentchange()" />
+                    </span>
+                   
+                <span class="input-euro1 left">
+                        <input type="text" ng-model="mortagage.percentagedownpayment" ng-change="percetagechange()" />
+                    </span>
+                        <label>Interest:</label>
+                        <select data-ng-options="o for o in options" ng-model="mortagage.interst"></select>
+                        <label>Years:</label>
+                        <select data-ng-options="y for y in pyears" ng-model="mortagage.years"></select>
+                        <label ng-if="result!=0">Monthly Payment</label>
+                        <span ng-if="result!=0">{{result}}</span>
+</div>
                 <div class="modal-footer">
                     <button class="btn btn-warning" ng-click="cancel()">Cancel</button>
-                    <input type="button" class="btn primary-btn" value="Calculate" ng-click="calculate()" />
+                    <button  class="btn btn-warning" value="Calculate" ng-click="calculate()">calculate</button>
+                 
                 </div>
             </form>
         </script>

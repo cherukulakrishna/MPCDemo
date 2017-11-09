@@ -1,0 +1,43 @@
+﻿body {
+  
+    .input-euro
+
+{
+    position: relative;
+}
+
+.input-euro.left input {
+    padding-left: 20px;
+}
+
+.input-euro:before {
+    position: absolute;
+    bottom: 2px;
+    left: 20px;
+    content: "$";
+}
+
+.input-euro.left:before {
+    left: 10px;
+}
+
+.input-euro1 {
+    position: relative;
+}
+
+    .input-euro1.left input {
+        padding-left: 20px;
+    }
+
+    .input-euro1:before {
+        position: absolute;
+        bottom: 2px;
+        left: 200px;
+        content: "%";
+    }
+
+    .input-euro1.left:before {
+        left: 40px;
+    }
+    
+}

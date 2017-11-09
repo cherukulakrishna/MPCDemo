@@ -1,0 +1,19 @@
+﻿body {
+
+#input-symbol-euro
+{
+    position: relative;
+}
+
+#input-symbol-euro input {
+    padding-left: 18px;
+}
+
+#input-symbol-euro:before {
+    position: absolute;
+    top: 0;
+    content: "€";
+    left: 5px;
+}
+
+}

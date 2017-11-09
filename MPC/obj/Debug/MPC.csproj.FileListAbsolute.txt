@@ -31,3 +31,70 @@ c:\users\krishna reddy\documents\visual studio 2015\Projects\MPC\MPC\bin\Microso
 c:\users\krishna reddy\documents\visual studio 2015\Projects\MPC\MPC\obj\Debug\MPC.csprojResolveAssemblyReference.cache
 c:\users\krishna reddy\documents\visual studio 2015\Projects\MPC\MPC\obj\Debug\MPC.dll
 c:\users\krishna reddy\documents\visual studio 2015\Projects\MPC\MPC\obj\Debug\MPC.pdb
+C:\Users\hsiripothu\Documents\Angular\MPCDemo-master\MPC\bin\ApplicationInsights.config
+C:\Users\hsiripothu\Documents\Angular\MPCDemo-master\MPC\bin\roslyn\csc.exe
+C:\Users\hsiripothu\Documents\Angular\MPCDemo-master\MPC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\hsiripothu\Documents\Angular\MPCDemo-master\MPC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\hsiripothu\Documents\Angular\MPCDemo-master\MPC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\hsiripothu\Documents\Angular\MPCDemo-master\MPC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\hsiripothu\Documents\Angular\MPCDemo-master\MPC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\hsiripothu\Documents\Angular\MPCDemo-master\MPC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\hsiripothu\Documents\Angular\MPCDemo-master\MPC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\hsiripothu\Documents\Angular\MPCDemo-master\MPC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\hsiripothu\Documents\Angular\MPCDemo-master\MPC\bin\roslyn\vbc.exe
+C:\Users\hsiripothu\Documents\Angular\MPCDemo-master\MPC\bin\roslyn\VBCSCompiler.exe
+C:\Users\hsiripothu\Documents\Angular\MPCDemo-master\MPC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\hsiripothu\Documents\Angular\MPCDemo-master\MPC\bin\MPC.dll.config
+C:\Users\hsiripothu\Documents\Angular\MPCDemo-master\MPC\bin\MPC.dll
+C:\Users\hsiripothu\Documents\Angular\MPCDemo-master\MPC\bin\MPC.pdb
+C:\Users\hsiripothu\Documents\Angular\MPCDemo-master\MPC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\hsiripothu\Documents\Angular\MPCDemo-master\MPC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\hsiripothu\Documents\Angular\MPCDemo-master\MPC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\hsiripothu\Documents\Angular\MPCDemo-master\MPC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\hsiripothu\Documents\Angular\MPCDemo-master\MPC\bin\Microsoft.AI.Web.dll
+C:\Users\hsiripothu\Documents\Angular\MPCDemo-master\MPC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\hsiripothu\Documents\Angular\MPCDemo-master\MPC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\hsiripothu\Documents\Angular\MPCDemo-master\MPC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\hsiripothu\Documents\Angular\MPCDemo-master\MPC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\hsiripothu\Documents\Angular\MPCDemo-master\MPC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\hsiripothu\Documents\Angular\MPCDemo-master\MPC\bin\Microsoft.AI.Web.xml
+C:\Users\hsiripothu\Documents\Angular\MPCDemo-master\MPC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\hsiripothu\Documents\Angular\MPCDemo-master\MPC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\hsiripothu\Documents\Angular\MPCDemo-master\MPC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\hsiripothu\Documents\Angular\MPCDemo-master\MPC\obj\Debug\MPC.csprojResolveAssemblyReference.cache
+C:\Users\hsiripothu\Documents\Angular\MPCDemo-master\MPC\obj\Debug\MPC.csproj.CoreCompileInputs.cache
+C:\Users\hsiripothu\Documents\Angular\MPCDemo-master\MPC\obj\Debug\MPC.dll
+C:\Users\hsiripothu\Documents\Angular\MPCDemo-master\MPC\obj\Debug\MPC.pdb
+C:\Users\Krishna Reddy\eclipse\Downloads\MPCDemo-master\MPC\bin\ApplicationInsights.config
+C:\Users\Krishna Reddy\eclipse\Downloads\MPCDemo-master\MPC\bin\roslyn\csc.exe
+C:\Users\Krishna Reddy\eclipse\Downloads\MPCDemo-master\MPC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Krishna Reddy\eclipse\Downloads\MPCDemo-master\MPC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Krishna Reddy\eclipse\Downloads\MPCDemo-master\MPC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Krishna Reddy\eclipse\Downloads\MPCDemo-master\MPC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Krishna Reddy\eclipse\Downloads\MPCDemo-master\MPC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Krishna Reddy\eclipse\Downloads\MPCDemo-master\MPC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Krishna Reddy\eclipse\Downloads\MPCDemo-master\MPC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Krishna Reddy\eclipse\Downloads\MPCDemo-master\MPC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Krishna Reddy\eclipse\Downloads\MPCDemo-master\MPC\bin\roslyn\vbc.exe
+C:\Users\Krishna Reddy\eclipse\Downloads\MPCDemo-master\MPC\bin\roslyn\VBCSCompiler.exe
+C:\Users\Krishna Reddy\eclipse\Downloads\MPCDemo-master\MPC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Krishna Reddy\eclipse\Downloads\MPCDemo-master\MPC\bin\MPC.dll.config
+C:\Users\Krishna Reddy\eclipse\Downloads\MPCDemo-master\MPC\bin\MPC.dll
+C:\Users\Krishna Reddy\eclipse\Downloads\MPCDemo-master\MPC\bin\MPC.pdb
+C:\Users\Krishna Reddy\eclipse\Downloads\MPCDemo-master\MPC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Krishna Reddy\eclipse\Downloads\MPCDemo-master\MPC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Krishna Reddy\eclipse\Downloads\MPCDemo-master\MPC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Krishna Reddy\eclipse\Downloads\MPCDemo-master\MPC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Krishna Reddy\eclipse\Downloads\MPCDemo-master\MPC\bin\Microsoft.AI.Web.dll
+C:\Users\Krishna Reddy\eclipse\Downloads\MPCDemo-master\MPC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Krishna Reddy\eclipse\Downloads\MPCDemo-master\MPC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Krishna Reddy\eclipse\Downloads\MPCDemo-master\MPC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Krishna Reddy\eclipse\Downloads\MPCDemo-master\MPC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Krishna Reddy\eclipse\Downloads\MPCDemo-master\MPC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Krishna Reddy\eclipse\Downloads\MPCDemo-master\MPC\bin\Microsoft.AI.Web.xml
+C:\Users\Krishna Reddy\eclipse\Downloads\MPCDemo-master\MPC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Krishna Reddy\eclipse\Downloads\MPCDemo-master\MPC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Krishna Reddy\eclipse\Downloads\MPCDemo-master\MPC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Krishna Reddy\eclipse\Downloads\MPCDemo-master\MPC\obj\Debug\MPC.csprojResolveAssemblyReference.cache
+C:\Users\Krishna Reddy\eclipse\Downloads\MPCDemo-master\MPC\obj\Debug\MPC.dll
+C:\Users\Krishna Reddy\eclipse\Downloads\MPCDemo-master\MPC\obj\Debug\MPC.pdb
